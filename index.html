@@ -1,40 +1,259 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/webstorm-icon-logo.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WS playground</title>
-  <link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>基因編輯與科技進步</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* 設定文章區塊 */
+    article {
+      width: 80%;
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* 設定標題樣式 */
+    h1 {
+      font-size: 2.5rem;
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 1.5rem;
+    }
+
+    /* 設定段落樣式 */
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      text-align: justify;
+      text-justify: inter-word;
+      color: #555;
+    }
+
+    /* 設定段落首行縮排 */
+    p:first-child {
+      text-indent: 2em;
+    }
+
+    /* 設定段落中的強調文字樣式 */
+    p em {
+      font-style: italic;
+      color: #e74c3c;
+    }
+
+    /* 增加段落內的間距和排版 */
+    p + p {
+      margin-top: 1.2rem;
+    }
+
+    #comments > div {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .media-wrapper {
+      display: flex;
+      gap: 10px;
+      align-items: center; /* 垂直置中 */
+      margin-top: 8px;
+    }
+    .media-wrapper img,
+    .media-wrapper video {
+      max-width: 200px;
+      max-height: 150px;
+      border-radius: 4px;
+    }
+    @media screen and (max-width: 767px) {
+      video{
+        max-width: 100%;
+        border: 5px;
+      }
+    }
+  </style>
 </head>
 <body>
-<header class="logo">
-  <a href="https://www.jetbrains.com/webstorm/">
-    <img src="/webstorm-logo.svg" alt="WebStorm logo" width="344"
-         height="90">
-  </a>
-</header>
-<main id="app">
-  <h1 class="title">
-    Thank you for trying it out. <br /> Your first project is up and running
-    now.
-  </h1>
-  <section class="counter">
-    <div class="counter-info">
-      <p class="counter-text">Counter is</p>
-      <p class="counter-value" id="counter-value"></p>
-    </div>
-    <div class="counter-interaction">
-      <button id="increaseByOne" type="button">+1</button>
-      <button id="increaseByTwo" type="button">+2</button>
-      <button id="decreaseByOne" type="button">-1</button>
-      <button id="decreaseByTwo" type="button">-2</button>
-    </div>
-  </section>
-</main>
-<footer class="technologies">
-  <img src="/technologies.svg" alt="List of supported technologies">
+<div id="google-translate-box">
+  <div id="google_translate_element"></div>
+  <!-- Google Translate 的自動翻譯功能 -->
+  <script type="text/javascript"> function googleTranslateElementInit()
+  { new google.translate.TranslateElement({ pageLanguage: 'zh-TW', includedLanguages: 'en,es,fr,de,it,zh-CN,ja,ko,th,vi,my,id,ms,ar,he,ru,tg,uk,hi,tr,pt,nl,is,fi,sv,no,ro,kk,bo,mn,la,fil,tl,el', // 支援的翻譯語言（可擴展
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element'); } </script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> <p>點擊上方的語言選單以切換語言</p> </div>
+<article>
+  <h1>基因編輯與科技進步的未來</h1>
+  <p>隨著基因編輯技術的發展，未來科學家很可能會選擇探索如何合法化並普及這項技術，以解決當前許多人對人口素質的擔憂。從古希臘時代開始，人類就對外貌和基因的影響產生了強烈的反應。當時，醜陋甚至被視為某種邪惡神祇的標誌，這些人被認為是上天的惡作劇，注定要毀滅世界。如今，科學證明外貌上的差異其實與基因有關，並且整容技術讓人們能夠改變自己的外觀。</p>
+
+  <p>然而，隨著基因編輯技術的普及，我們甚至可能不再需要整容。未來，父母將能選擇未出生孩子的外貌、天賦、健康狀況，甚至人品，還能清除可能的遺傳病。這樣的進步可能會讓社會道德標準達到一個近乎完美的狀態，甚至可能因此降低犯罪率。</p>
+
+  <p>但也許會有人疑問：「如果每個人都達到近乎完美的標準，那麼像律師事務所、醫院、特教學校、整形診所等依賴人類的缺陷、疾病和社會糾紛的機構與行業，該如何生存下去？」然而，這個問題的邏輯就像早期科技發展中的例子：</p>
+    <ul>
+    <li>為了保護馬伕、馬醫和其他與馬相關的工作職位，是否應該阻止汽車、飛機等交通工具的誕生？</li>
+  <li>為了讓提糞工有工作，我們是不是也不能發展現代的衛生系統和污水處理技術？</li>
+</ul>
+  <p>顯然，這樣的邏輯是不成立的。</p>
+  <em>補充說明：<br>下方這張由HTML內部提供的&lt;table&gt;元素製成的表格，向我們展示仰賴種種苦難生存的各產業在台灣的收入。</em>
+  <table border="1">
+    <thead>
+    <tr>
+      <th>行業</th>
+      <th>年收入範圍</th>
+      <th>影響因素</th>
+      <th>資料來源</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>牙科診所</td>
+      <td>300萬 - 1000萬新台幣</td>
+      <td>診所規模、位置、知名度、醫生的技術、服務項目</td>
+      <td>依台灣行業報告估算</td>
+    </tr>
+    <tr>
+      <td>整形外科診所</td>
+      <td>1000萬 - 數千萬新台幣</td>
+      <td>醫生知名度、手術項目、地理位置</td>
+      <td>根據整形外科市場分析報告</td>
+    </tr>
+    <tr>
+      <td>特教學校</td>
+      <td>500萬 - 2000萬新台幣</td>
+      <td>學生數、私立或公立、政府補助、學費</td>
+      <td>參考教育部和私立學校數據</td>
+    </tr>
+    <tr>
+      <td>律師事務所</td>
+      <td>500萬 - 2000萬新台幣</td>
+      <td>事務所規模、服務領域、案件規模</td>
+      <td>參照台灣律師協會及業界報告</td>
+    </tr>
+    <tr>
+      <td>殯儀館</td>
+      <td>500萬 - 5000萬新台幣</td>
+      <td>市場需求、地區性需求、服務內容、規模</td>
+      <td>根據台灣殯葬業市場分析</td>
+    </tr>
+    <tr>
+      <td>禮儀公司</td>
+      <td>200萬 - 1500萬新台幣</td>
+      <td>服務項目、品牌知名度、服務品質</td>
+      <td>來自台灣相關行業調查</td>
+    </tr>
+    <tr>
+      <td>骨灰壇工廠</td>
+      <td>300萬 - 2000萬新台幣</td>
+      <td>市場需求、合作機構、製造規模</td>
+      <td>依台灣殯葬用品產業報告整理</td>
+    </tr>
+    <tr>
+      <td>長照產業</td>
+      <td>1000萬 - 上億元新台幣</td>
+      <td>機構規模、服務種類、地點、住民數量、政府補助</td>
+      <td>根據長照產業發展報告及政府資料分析</td>
+    </tr>
+    </tbody>
+  </table>
+  <p>有些人可能會指出，像馬雲和郭台銘這樣的成功人士並非通過基因編輯技術誕生，他們的起跑點甚至可能比普通人更低，但他們依然取得了成功。然而，這種「幸存者偏差」的例子並不足以成為普遍規律。很多人無法像他們那樣克服劣勢，因此我們不應該盲目歌頌苦難。成功的路並非每個人都能走通。</p>
+
+  <p>在今天，很多人因為對遺傳疾病或不穩定的生活環境感到焦慮，選擇不生育，但卻常常被長輩認為不負責任。然而，如果生孩子的出發點是為了讓孩子充當社會的燃料、為了上面那張表格裡提到的某些產業能繼續維持運作，那麼這樣的動機就值得反思。我們不應該將生育視為僅僅為了社會需求而存在的機制，應該更多地考慮孩子的幸福與未來。</p>
+
+  <p>以韓國和台灣為例，由於高壓的社會競爭、過高的育兒成本、無震攝效果的司法判決，出生率持續下降。這些國家的領導人也深知生育帶來的壓力和困難，但他們卻在公眾面前強調，如果不生育，國家未來將面臨消失的風險，進而強迫民眾承擔生育的重擔。這種言論引發了廣泛的不滿。尤其令人矛盾的是，這些領導人自己卻選擇不生孩子，其中一位甚至將寵物當作家庭成員來照顧。這種行為讓人不禁想到「不吸毒的毒販」這個比喻：領袖一方面強調生育的重要性，卻自己逃避這些現實困境，將生育的重擔轉嫁給人民。這就像是毒販鼓勵他人吸毒，而自己卻避開毒品，這樣的行為充滿了雙重標準（如下方五部插入影片所示）。</p>
+  <video style="border: 5px solid red;" controls><source src="尹錫悅.mp4"></video><br>
+  <video style="border: 5px solid blue;" controls><source src="雙標的南韓總統.mp4"></video><br>
+  <video style="border: 5px solid green;" controls><source src="蔡英文.mp4"></video><br>
+  <video style="border: 5px solid yellow;" controls><source src="少子化.mp4"></video><br>
+  <video style="border: 5px solid pink;" controls><source src="戰鬥-通往勝利1.mp4"></video>
+  <p>這種邏輯讓很多人感到愚弄和無奈，因為政府並未真正理解或體會到育兒的艱辛，而是單純地將其視為一項應該強加於民眾的義務。這樣的行為不僅讓人民感到失望，也讓生育的問題變得更加複雜和難以解決。</p>
+
+  <p>科技的進步應該是改善整個人類的福祉，而非僅僅維持某些人或產業的既得利益。當今，許多工作已經被人工智慧和機器人取代，這是科技提升生活質量的必然趨勢。未來，當我們的生活方式發生變化，更多的體力和腦力勞動會被智能技術取代，所以我們不應該過度擔心某些行業的消失，而是應該專注於如何以更高效、更有意義的方式安排我們的時間和生活。</p>
+
+  <p>總而言之，科技的發展不應該被視為威脅現有結構的力量，而應該成為提升整個人類生活品質的工具。我們應該擁抱進步，並且積極思考如何在科技發展的過程中創造出更公平、更多樣化的未來。</p>
+</article>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v17.0" nonce="yourNonce">
+</script>
+
+<div class="fb-comments"
+     data-href="https://chrischou19990904.github.io/harp_app_introduction"
+     data-width="100%"
+     data-numposts="5">
+</div>
+<div id="comments"></div>
+
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("service-worker.js")
+              .then((reg) => {
+                console.log("✅ Service Worker registered:", reg);
+              })
+              .catch((err) => {
+                console.error("❌ Service Worker registration failed:", err);
+              });
+    });
+  }
+  document.getElementById('comment-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const imageFile = document.getElementById('image').files[0];
+    const videoFile = document.getElementById('video').files[0];
+
+    if (!name || !message) {
+      alert('請填寫名字和留言內容');
+      return;
+    }
+
+    const commentDiv = document.createElement('div');
+    commentDiv.innerHTML = `<p><strong>${name}</strong>: ${message}</p>`;
+
+    const mediaWrapper = document.createElement('div');
+    mediaWrapper.classList.add('media-wrapper');
+
+    if (imageFile) {
+      const img = document.createElement('img');
+      img.src = URL.createObjectURL(imageFile);
+      img.alt = '上傳的圖片';
+      mediaWrapper.appendChild(img);
+    }
+
+    if (videoFile) {
+      const video = document.createElement('video');
+      video.src = URL.createObjectURL(videoFile);
+      video.controls = true;
+      mediaWrapper.appendChild(video);
+    }
+
+    // 只有當有圖片或影片時才加 mediaWrapper
+    if (mediaWrapper.children.length > 0) {
+      commentDiv.appendChild(mediaWrapper);
+    }
+
+    document.getElementById('comments').appendChild(commentDiv);
+
+    this.reset();
+  });
+</script>
+<ul id="messages"></ul>
+<footer style="text-align: center; background-color: purple; color:yellow; font-size: 50px">
+  作者：<a href="https://www.facebook.com/profile.php?id=100056441813114&locale=zh_TW" target="_blank" style="color:white;">周彥廷</a>
+  <br>創作日期：西元二零二五年八月二十四日<br>
+  <img width="540" height="720" src="my_appearance2.jpg" alt="自拍">
+  <br>
 </footer>
-<script type="module" src="/src/main.js"></script>
 </body>
 </html>
